@@ -1,6 +1,6 @@
 baseurl = "example.com"
 metaDataFormat = "yaml"
-title = "Tex_s Lair"
+title = "Tex's Blog"
 theme = "blist"
 
 DefaultContentLanguage = "en"
@@ -11,9 +11,9 @@ DefaultContentLanguageInSubdir = true
     weight = 1
     languageName = "English"
     [languages.en.params]
-      introTitle = "Shalom friends! - Tex Murphy"
+      introTitle = "Shalom friends!"
       introSubtitle = "Professional lurker"
-      introPhoto = "/picture.jpg"
+      introPhoto = "me.png"
     [[languages.en.menu.main]]
         name = "Blog"
         url = "blog"
@@ -28,11 +28,6 @@ DefaultContentLanguageInSubdir = true
         name = "Tags"
         url = "tags"
         weight = 3
-
-    [[languages.en.menu.main]]
-        name = "Top Post"
-        url = "/en/blog/emoji-support/"
-        weight = 4
 
 [params]
   # Enable the darkmode toggle in header
@@ -56,7 +51,7 @@ DefaultContentLanguageInSubdir = true
   ]
 
   # Custom copyright - optional
-  copyright = "Copyright © 2021 - Tex Murphy · All rights reserved"
+  copyright = "Copyright © 2023 - Tex Murphy · All rights reserved"
   favicon = "/favicon.svg"
 
   # Color for the intro details and social links block, not applicable for dark mode
@@ -110,14 +105,14 @@ DefaultContentLanguageInSubdir = true
 [params.homepage.social]
   # Global params common for both languages
   title = "Follow me"
-  description = "I work on everything coding and tweet developer memes"
+  description = "I work hard trying not to work hard"
 
   [[params.homepage.social.icons]]
-    website = "twitter"
-    url = "https://twitter.com/"
+    website = "youtube"
+    url = "https://youtube.com/@dxutakerxd"
   [[params.homepage.social.icons]]
     website = "linkedin"
-    url = "https://linkedin.com/in/"
+   url = "https://linkedin.com/in/"
   [[params.homepage.social.icons]]
     website = "xing"
     url = "https://www.xing.com/profile/"
@@ -158,11 +153,11 @@ DefaultContentLanguageInSubdir = true
     website = "youtube"
     url = "https://youtube.com"
   [[params.homepage.social.icons]]
-    website = "instagram"
-    url = "https://instagram.com"
+   website = "instagram"
+   url = "https://instagram.com"
   [[params.homepage.social.icons]]
-    website = "facebook"
-    url = "https://facebook.com"
+   website = "facebook"
+   url = "https://facebook.com"
   [[params.homepage.social.icons]]
     website = "behance"
     url = "https://behance.net"
